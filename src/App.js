@@ -2,6 +2,11 @@ import logo from './logo.svg';
 import './App.css';
 import Topnav from './Components/Topnav';
 import Banner from './Components/Banner';
+import Centerbanner from './Components/Centerbanner';
+import { Card } from 'react-bootstrap';
+
+
+
 
 function App() {
   return (
@@ -10,6 +15,12 @@ function App() {
 
 <Topnav/>
 <Banner/>
+<Centerbanner/>
+
+<Card/>
+
+
+
 </>
   );
 }
